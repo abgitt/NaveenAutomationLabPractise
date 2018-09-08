@@ -9,4 +9,8 @@ public class NewClass {
 	{
 		System.out.println("HI");
 	}
+	public void check()
+	{
+		System.out.println("Hello");
+	}
 }
