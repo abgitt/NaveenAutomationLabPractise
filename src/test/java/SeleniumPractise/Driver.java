@@ -14,7 +14,7 @@ public class Driver {
 		WebDriver dr=new ChromeDriver();
 		dr.get("http://www.youtube.com");
 	}
-	@AfterTest
+	@Test
 	public void closeChrome()
 	{
 		System.out.println("Closing ");
