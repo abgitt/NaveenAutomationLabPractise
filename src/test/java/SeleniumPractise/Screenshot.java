@@ -1,13 +1,18 @@
 package SeleniumPractise;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-//Navigations and Screenshot
-public class Navigations {
+import org.apache.commons.io.FileUtils;
 
-	public static void main(String[] args) throws InterruptedException {
+public class Screenshot {
+
+	public static void main(String[] args) throws IOException {
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		WebDriver dr=new ChromeDriver();
 		dr.manage().window().maximize();
@@ -16,14 +21,9 @@ public class Navigations {
 		dr.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 		
 		dr.navigate().to("http://www.google.com");
-		dr.navigate().to("http://www.facebook.com");
-		dr.navigate().back();
-		Thread.sleep(1000);
-		dr.navigate().forward();
-		Thread.sleep(1000);
-		dr.navigate().refresh();
-		
-		
+		File image = ((TakesScreenshot) dr).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(image,new File("C:\\Users\\ABI\\eclipse-workspace\\NaveenAL"));
+
 	}
 
 }
