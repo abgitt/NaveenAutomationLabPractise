@@ -22,7 +22,7 @@ public class Screenshot {
 		
 		dr.navigate().to("http://www.google.com");
 		File image = ((TakesScreenshot) dr).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(image,new File("C:\\Users\\ABI\\eclipse-workspace\\NaveenAL"));
+		FileUtils.copyFile(image,new File("C:\\Users\\ABI\\Desktop\\CHK.jpg"));
 
 	}
 
