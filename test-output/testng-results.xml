@@ -2,16 +2,20 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-09-08T10:25:32Z" name="Default suite" finished-at="2018-09-08T10:25:50Z" duration-ms="18072">
+  <suite started-at="2018-09-26T17:15:51Z" name="Default suite" finished-at="2018-09-26T17:16:03Z" duration-ms="11376">
     <groups>
     </groups>
-    <test started-at="2018-09-08T10:25:32Z" name="Default test" finished-at="2018-09-08T10:25:50Z" duration-ms="18072">
-      <class name="SeleniumPractise.Driver">
-        <test-method signature="startChrome()[pri:0, instance:SeleniumPractise.Driver@58a9760d]" started-at="2018-09-08T15:55:32Z" name="startChrome" finished-at="2018-09-08T15:55:50Z" duration-ms="18046" status="PASS">
+    <test started-at="2018-09-26T17:15:51Z" name="Default test" finished-at="2018-09-26T17:16:03Z" duration-ms="11376">
+      <class name="SeleniumPractise.HandleWindowPopup">
+        <test-method is-config="true" signature="fBeginMethod()[pri:0, instance:SeleniumPractise.HandleWindowPopup@33c911a1]" started-at="2018-09-26T22:45:51Z" name="fBeginMethod" finished-at="2018-09-26T22:45:57Z" duration-ms="5824" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startChrome -->
-      </class> <!-- SeleniumPractise.Driver -->
+        </test-method> <!-- fBeginMethod -->
+        <test-method signature="fHandleWindow()[pri:0, instance:SeleniumPractise.HandleWindowPopup@33c911a1]" started-at="2018-09-26T22:45:57Z" name="fHandleWindow" finished-at="2018-09-26T22:46:03Z" duration-ms="5528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fHandleWindow -->
+      </class> <!-- SeleniumPractise.HandleWindowPopup -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
