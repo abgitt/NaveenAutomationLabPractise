@@ -1,0 +1,5 @@
+customize xpaths : 
+1) //input[contains(@class,'param')]
+2) //a[contains(text(),'Google')]
+3) //input[starts-with(@id,'test_')]   test_123,test_456
+4) //input[ends-with(@id,'_test')]  123_test,456_test
