@@ -105,6 +105,7 @@ public class JavascriptExecutorConcept {
 			js.executeScript("arguments[0].click();",element);
 		}
 		
+		
 		public static void refresh(JavascriptExecutor js)
 		{
 			js.executeScript("history.go(0)");
