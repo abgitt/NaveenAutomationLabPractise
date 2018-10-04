@@ -38,6 +38,11 @@ public class DynaicWebTableHandle {
 				dr.findElement(By.xpath(bFrXpath+i+"]/td[1]")).click();
 			}
 		}
+		dr.findElement(By.xpath("//a[contains(text(),'Mamatha G')]/parent::td/preceding-sibling::td/input")).click();
+		dr.findElement(By.xpath("//a[contains(text(),'Mamatha G')]/parent::td/following-sibling::td/following-sibling::td")).click();
+		dr.findElement(By.xpath("//a[contains(text(),'Mamatha G')]/parent::td/following-sibling::td/following-sibling::td/input")).sendKeys("8985837814");
+		dr.findElement(By.xpath("//a[contains(text(),'Mamatha G')]/parent::td/following-sibling::td/following-sibling::td/input[@type='button']")).click();
+		dr.findElement(By.xpath("//a[contains(text(),'Home')]")).click();
 	}
 
 }
