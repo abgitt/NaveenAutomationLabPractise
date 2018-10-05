@@ -105,6 +105,10 @@ public class JavascriptExecutorConcept {
 			js.executeScript("arguments[0].click();",element);
 		}
 		
+		public static void changeDate(String val,WebElement element,JavascriptExecutor js)
+		{
+			js.executeScript("document.getElementById('ctl00_mainContent_view_date1').value='"+val+"';");
+		}
 		
 		public static void refresh(JavascriptExecutor js)
 		{
