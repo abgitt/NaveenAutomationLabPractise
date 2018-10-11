@@ -11,10 +11,11 @@ public class DataDrivenTest {
 	public static void main(String[] args) {
 		Xls_Reader reader = new Xls_Reader("C:\\Users\\ABI\\eclipse-workspace\\NaveenAL\\src\\test\\java\\com\\testdata\\TestDataGrid.xlsx");
 		System.out.println(reader.getCellData("RegTest", 1, 2));
+		reader.addColumn("RegTest", "Status");
 		for(int ro=2;ro<=reader.getRowCount("RegTest");ro++)
 		{
 			System.out.println(reader.getCellData("RegTest", "firstname", ro));
-
+			reader.setCellData("RegTest", "Status", ro, "Pass");
 		}
 		/*WebDriver dr;
 

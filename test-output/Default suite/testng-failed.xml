@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="SeleniumPractise.HandleWindowPopup">
+      <class name="TestNNGSuite.TestNGFeatures">
         <methods>
-          <include name="fHandleWindow"/>
-          <include name="fBeginMethod"/>
+          <include name="fTest2"/>
+          <include name="fTest1"/>
         </methods>
-      </class> <!-- SeleniumPractise.HandleWindowPopup -->
+      </class> <!-- TestNNGSuite.TestNGFeatures -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

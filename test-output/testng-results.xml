@@ -1,21 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-09-26T17:15:51Z" name="Default suite" finished-at="2018-09-26T17:16:03Z" duration-ms="11376">
+  <suite started-at="2018-10-07T17:29:27Z" name="Suite" finished-at="2018-10-07T17:30:13Z" duration-ms="45871">
     <groups>
+      <group name="Abhi">
+        <method signature="TestNGFeatures.fTest1(java.lang.String, java.lang.String)[pri:0, instance:TestNNGSuite.TestNGFeatures@2898ac89]" name="fTest1" class="TestNNGSuite.TestNGFeatures"/>
+        <method signature="TestNGFeatures.fTest2()[pri:0, instance:TestNNGSuite.TestNGFeatures@2898ac89]" name="fTest2" class="TestNNGSuite.TestNGFeatures"/>
+      </group> <!-- Abhi -->
     </groups>
-    <test started-at="2018-09-26T17:15:51Z" name="Default test" finished-at="2018-09-26T17:16:03Z" duration-ms="11376">
-      <class name="SeleniumPractise.HandleWindowPopup">
-        <test-method is-config="true" signature="fBeginMethod()[pri:0, instance:SeleniumPractise.HandleWindowPopup@33c911a1]" started-at="2018-09-26T22:45:51Z" name="fBeginMethod" finished-at="2018-09-26T22:45:57Z" duration-ms="5824" status="PASS">
+    <test started-at="2018-10-07T17:29:27Z" name="Test" finished-at="2018-10-07T17:30:13Z" duration-ms="45871">
+      <class name="SeleniumPractise.DragAndDrop">
+        <test-method is-config="true" signature="fBeginMethod()[pri:0, instance:SeleniumPractise.DragAndDrop@610f7aa]" started-at="2018-10-07T22:59:27Z" name="fBeginMethod" finished-at="2018-10-07T22:59:51Z" duration-ms="24364" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fBeginMethod -->
-        <test-method signature="fHandleWindow()[pri:0, instance:SeleniumPractise.HandleWindowPopup@33c911a1]" started-at="2018-09-26T22:45:57Z" name="fHandleWindow" finished-at="2018-09-26T22:46:03Z" duration-ms="5528" status="PASS">
+        <test-method signature="fDragAndDrop(java.lang.String, java.lang.String)[pri:0, instance:SeleniumPractise.DragAndDrop@610f7aa]" started-at="2018-10-07T22:59:51Z" name="fDragAndDrop" finished-at="2018-10-07T23:00:12Z" duration-ms="20525" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C:\Workspaces\Neon]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fHandleWindow -->
-      </class> <!-- SeleniumPractise.HandleWindowPopup -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- fDragAndDrop -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumPractise.DragAndDrop@610f7aa]" started-at="2018-10-07T23:00:12Z" name="tearDown" finished-at="2018-10-07T23:00:13Z" duration-ms="880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumPractise.DragAndDrop -->
+      <class name="TestNNGSuite.TestNGFeatures">
+        <test-method signature="fTest1(java.lang.String, java.lang.String)[pri:0, instance:TestNNGSuite.TestNGFeatures@2898ac89]" started-at="2018-10-07T23:00:13Z" name="fTest1" finished-at="2018-10-07T23:00:13Z" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C:\Workspaces\Neon]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at org.testng.Assert.assertFalse(Assert.java:73)
+	at TestNNGSuite.TestNGFeatures.fTest1(TestNGFeatures.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fTest1 -->
+        <test-method signature="fTest2()[pri:0, instance:TestNNGSuite.TestNGFeatures@2898ac89]" started-at="2018-10-07T23:00:13Z" name="fTest2" finished-at="2018-10-07T23:00:13Z" depends-on-methods="TestNNGSuite.TestNGFeatures.fTest1" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fTest2 -->
+      </class> <!-- TestNNGSuite.TestNGFeatures -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
