@@ -1,101 +1,216 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="3" passed="3" failed="0" skipped="0">
+<testng-results total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-10-07T17:29:27Z" name="Suite" finished-at="2018-10-07T17:30:13Z" duration-ms="45871">
+  <suite started-at="2018-10-11T17:44:35Z" name="Default suite" finished-at="2018-10-11T17:44:36Z" duration-ms="1292">
     <groups>
-      <group name="Abhi">
-        <method signature="TestNGFeatures.fTest1(java.lang.String, java.lang.String)[pri:0, instance:TestNNGSuite.TestNGFeatures@2898ac89]" name="fTest1" class="TestNNGSuite.TestNGFeatures"/>
-        <method signature="TestNGFeatures.fTest2()[pri:0, instance:TestNNGSuite.TestNGFeatures@2898ac89]" name="fTest2" class="TestNNGSuite.TestNGFeatures"/>
-      </group> <!-- Abhi -->
     </groups>
-    <test started-at="2018-10-07T17:29:27Z" name="Test" finished-at="2018-10-07T17:30:13Z" duration-ms="45871">
-      <class name="SeleniumPractise.DragAndDrop">
-        <test-method is-config="true" signature="fBeginMethod()[pri:0, instance:SeleniumPractise.DragAndDrop@610f7aa]" started-at="2018-10-07T22:59:27Z" name="fBeginMethod" finished-at="2018-10-07T22:59:51Z" duration-ms="24364" status="PASS">
+    <test started-at="2018-10-11T17:44:35Z" name="Default test" finished-at="2018-10-11T17:44:36Z" duration-ms="1292">
+      <class name="com.datadriven.test.DataProviderTest">
+        <test-method is-config="true" signature="b()[pri:0, instance:com.datadriven.test.DataProviderTest@117e949d]" started-at="2018-10-11T23:14:36Z" name="b" finished-at="2018-10-11T23:14:36Z" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fBeginMethod -->
-        <test-method signature="fDragAndDrop(java.lang.String, java.lang.String)[pri:0, instance:SeleniumPractise.DragAndDrop@610f7aa]" started-at="2018-10-07T22:59:51Z" name="fDragAndDrop" finished-at="2018-10-07T23:00:12Z" duration-ms="20525" status="PASS">
+        </test-method> <!-- b -->
+        <test-method signature="checkDataProverFun(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.test.DataProviderTest@117e949d]" started-at="2018-10-11T23:14:36Z" name="checkDataProverFun" data-provider="getTestData" finished-at="2018-10-11T23:14:36Z" duration-ms="8" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[http://www.google.com]]>
+                <![CDATA[G]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[C:\Workspaces\Neon]]>
+                <![CDATA[24/12/1232]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abilash]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fDragAndDrop -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumPractise.DragAndDrop@610f7aa]" started-at="2018-10-07T23:00:12Z" name="tearDown" finished-at="2018-10-07T23:00:13Z" duration-ms="880" status="PASS">
+        </test-method> <!-- checkDataProverFun -->
+        <test-method is-config="true" signature="c()[pri:0, instance:com.datadriven.test.DataProviderTest@117e949d]" started-at="2018-10-11T23:14:36Z" name="c" finished-at="2018-10-11T23:14:36Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- SeleniumPractise.DragAndDrop -->
-      <class name="TestNNGSuite.TestNGFeatures">
-        <test-method signature="fTest1(java.lang.String, java.lang.String)[pri:0, instance:TestNNGSuite.TestNGFeatures@2898ac89]" started-at="2018-10-07T23:00:13Z" name="fTest1" finished-at="2018-10-07T23:00:13Z" duration-ms="14" status="PASS">
+        </test-method> <!-- c -->
+        <test-method is-config="true" signature="b()[pri:0, instance:com.datadriven.test.DataProviderTest@117e949d]" started-at="2018-10-11T23:14:36Z" name="b" finished-at="2018-10-11T23:14:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method signature="checkDataProverFun(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.test.DataProviderTest@117e949d]" started-at="2018-10-11T23:14:36Z" name="checkDataProverFun" data-provider="getTestData" finished-at="2018-10-11T23:14:36Z" duration-ms="27" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[http://www.google.com]]>
+                <![CDATA[G]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[C:\Workspaces\Neon]]>
+                <![CDATA[24/12/1232]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Manoj]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertFalse(Assert.java:63)
-	at org.testng.Assert.assertFalse(Assert.java:73)
-	at TestNNGSuite.TestNGFeatures.fTest1(TestNGFeatures.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fTest1 -->
-        <test-method signature="fTest2()[pri:0, instance:TestNNGSuite.TestNGFeatures@2898ac89]" started-at="2018-10-07T23:00:13Z" name="fTest2" finished-at="2018-10-07T23:00:13Z" depends-on-methods="TestNNGSuite.TestNGFeatures.fTest1" duration-ms="5" status="PASS">
+        </test-method> <!-- checkDataProverFun -->
+        <test-method is-config="true" signature="c()[pri:0, instance:com.datadriven.test.DataProviderTest@117e949d]" started-at="2018-10-11T23:14:36Z" name="c" finished-at="2018-10-11T23:14:36Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fTest2 -->
-      </class> <!-- TestNNGSuite.TestNGFeatures -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- c -->
+        <test-method is-config="true" signature="b()[pri:0, instance:com.datadriven.test.DataProviderTest@117e949d]" started-at="2018-10-11T23:14:36Z" name="b" finished-at="2018-10-11T23:14:36Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method signature="checkDataProverFun(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.test.DataProviderTest@117e949d]" started-at="2018-10-11T23:14:36Z" name="checkDataProverFun" data-provider="getTestData" finished-at="2018-10-11T23:14:36Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[G]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[24/12/1232]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mamatha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDataProverFun -->
+        <test-method is-config="true" signature="c()[pri:0, instance:com.datadriven.test.DataProviderTest@117e949d]" started-at="2018-10-11T23:14:36Z" name="c" finished-at="2018-10-11T23:14:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c -->
+        <test-method signature="checkDataProverFun(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.test.DataProviderTest@117e949d]" started-at="2018-10-11T23:14:36Z" name="checkDataProverFun" data-provider="getTestData" finished-at="2018-10-11T23:14:36Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[G]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[24/12/1232]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NBReddy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDataProverFun -->
+        <test-method is-config="true" signature="b()[pri:0, instance:com.datadriven.test.DataProviderTest@117e949d]" started-at="2018-10-11T23:14:36Z" name="b" finished-at="2018-10-11T23:14:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method is-config="true" signature="c()[pri:0, instance:com.datadriven.test.DataProviderTest@117e949d]" started-at="2018-10-11T23:14:36Z" name="c" finished-at="2018-10-11T23:14:36Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c -->
+        <test-method signature="checkDataProverFun(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.test.DataProviderTest@117e949d]" started-at="2018-10-11T23:14:36Z" name="checkDataProverFun" data-provider="getTestData" finished-at="2018-10-11T23:14:36Z" duration-ms="73" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[G]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[24/12/1232]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rupa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDataProverFun -->
+        <test-method is-config="true" signature="b()[pri:0, instance:com.datadriven.test.DataProviderTest@117e949d]" started-at="2018-10-11T23:14:36Z" name="b" finished-at="2018-10-11T23:14:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method is-config="true" signature="c()[pri:0, instance:com.datadriven.test.DataProviderTest@117e949d]" started-at="2018-10-11T23:14:36Z" name="c" finished-at="2018-10-11T23:14:36Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c -->
+        <test-method signature="checkDataProverFun(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.test.DataProviderTest@117e949d]" started-at="2018-10-11T23:14:36Z" name="checkDataProverFun" data-provider="getTestData" finished-at="2018-10-11T23:14:36Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDataProverFun -->
+        <test-method is-config="true" signature="b()[pri:0, instance:com.datadriven.test.DataProviderTest@117e949d]" started-at="2018-10-11T23:14:36Z" name="b" finished-at="2018-10-11T23:14:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method is-config="true" signature="c()[pri:0, instance:com.datadriven.test.DataProviderTest@117e949d]" started-at="2018-10-11T23:14:36Z" name="c" finished-at="2018-10-11T23:14:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c -->
+        <test-method is-config="true" signature="b()[pri:0, instance:com.datadriven.test.DataProviderTest@117e949d]" started-at="2018-10-11T23:14:36Z" name="b" finished-at="2018-10-11T23:14:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method signature="checkDataProverFun2(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.test.DataProviderTest@117e949d]" started-at="2018-10-11T23:14:36Z" name="checkDataProverFun2" data-provider="getTestDataLogin" finished-at="2018-10-11T23:14:36Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[G]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[24/12/1232]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abilash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDataProverFun2 -->
+        <test-method is-config="true" signature="c()[pri:0, instance:com.datadriven.test.DataProviderTest@117e949d]" started-at="2018-10-11T23:14:36Z" name="c" finished-at="2018-10-11T23:14:36Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c -->
+      </class> <!-- com.datadriven.test.DataProviderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

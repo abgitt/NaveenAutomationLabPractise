@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Suite]">
+  <parameter name="TestDataFolder" value="C:\Workspaces\Neon"/>
+  <parameter name="url" value="http://www.google.com"/>
+  <test name="Test(failed)">
+    <parameter name="TestDataFolder" value="C:\Workspaces\Neon"/>
+    <parameter name="url" value="http://www.google.com"/>
     <classes>
-      <class name="TestNNGSuite.TestNGFeatures">
+      <class name="SeleniumPractise.DragAndDrop">
         <methods>
-          <include name="fTest2"/>
-          <include name="fTest1"/>
+          <include name="fDragAndDrop"/>
+          <include name="fBeginMethod"/>
         </methods>
-      </class> <!-- TestNNGSuite.TestNGFeatures -->
+      </class> <!-- SeleniumPractise.DragAndDrop -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
